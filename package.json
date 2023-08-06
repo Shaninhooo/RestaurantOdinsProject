@@ -2,5 +2,6 @@
   "devDependencies": {
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
-  }
+  },
+  "scripts": { "YourScriptName": "git subtree push --prefix dist origin gh-pages" }
 }
