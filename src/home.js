@@ -1,6 +1,6 @@
 function createHome() {
     const home = document.createElement('div');
-    home.classList.add = 'home';
+    home.classList.add('home');
 
     const chefGIF = document.createElement('img');
     chefGIF.src = "images/tumblr_omckfbgJ2F1t45pbyo2_500.gif";
@@ -19,9 +19,10 @@ function createParagraph(text) {
 }
 
 function loadHome() {
-    const main = document.getElementById('main');
+    const main = document.getElementById('content');
     main.textContent = "";
     main.appendChild(createHome());
+    
 }
 
 export default loadHome;

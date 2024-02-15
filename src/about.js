@@ -16,6 +16,7 @@ function createAbout() {
    contact.appendChild(snailImg);
 
    const kitchenCrew = document.createElement('div');
+   kitchenCrew.classList.add('kitchenCrew');
    const kitchenCrewText = document.createElement('p');
    kitchenCrewText.textContent = 'This Is The Kitchen Crew';
    const captainImg = document.createElement('img');
@@ -48,7 +49,7 @@ function createAbout() {
 }
 
 function loadAbout() {
-    const main = document.getElementById('main');
+    const main = document.getElementById('content');
     main.textContent = "";
     main.appendChild(createAbout());
 }

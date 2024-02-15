@@ -1,0 +1,60 @@
+:root {
+    --font-color: #eee;
+    --font-color-dark: #aaa;
+    --border-color: #222;
+    --background-light: rgba(0, 0, 0, 0.6);
+    --background-light-hover: rgba(99, 99, 99, 0.4);
+    --background-dark: rgba(0, 0, 0, 0.9);
+  }
+  
+
+.nav, header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aquamarine;
+  color: var(black);
+  padding: 10px;
+} 
+
+#title {
+  text-align: center;
+  font-size: 50px;
+}
+
+.body {
+  background-color: aquamarine;
+}
+
+#content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  color: var(black);
+  padding: 10px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  color: var(black);
+  padding: 10px;
+}
+
+.kitchenCrew {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  color: var(black);
+  padding: 10px;
+}

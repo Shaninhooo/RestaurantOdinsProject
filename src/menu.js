@@ -70,10 +70,10 @@ function createMenuItem(name, description, img) {
 }
 
 function loadMenu() {
-    const main = document.getElementById('main');
+    const main = document.getElementById('content');
     main.textContent = "";
 
     main.appendChild(createMenu());
 }
 
-export default loadMenu();
+export default loadMenu;
